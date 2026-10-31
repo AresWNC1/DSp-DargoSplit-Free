@@ -2,7 +2,8 @@
 
 `DargoSplit` is an Android head-unit APK and phone installer bundle for Haval Dargo. Install DSp Free on the car multimedia system using ADB from a laptop, USB OTG from an Android phone, or Bugjaeger. The guide covers USB Peripheral mode, Windows ADB drivers, and installation commands.
 
-`DargoSplit` — комплект APK DSp Free для головного устройства Haval Dargo: приложение для Android-ГУ, установщик для телефона и инструкции по установке через ADB, USB OTG и Bugjaeger.
+`DSp Free` для Haval Dargo: APK для Android-ГУ и инструкции по установке через ADB, USB OTG и Bugjaeger.
+Комплект для установки DSp 3.6 на головное устройство Haval Dargo.
 
 ## Состав
 
@@ -105,13 +106,5 @@ Bugjaeger работает как ADB-клиент с телефона. APK ус
 
 Bugjaeger — дополнительный ADB-клиент, не телефонный DSp Installer. Его APK в комплекте взят из пользовательской папки `Телефон`; это сторонняя модифицированная сборка, её происхождение и безопасность отдельно не проверялись. Для установки DSp проще использовать DSp Installer по USB/Wi-Fi или ADB-команду с ноутбука.
 
-## Важные сведения о сборках
 
-- Head-unit APK: пакет `ru.freedgi.dsp`, версия `3.6.0-free`, versionCode `1895`, Android 9+ (minSdk 28).
-- Phone installer: отдельный пакет `ru.freedgi.dspremote.free`, версия `3.6-free`, versionCode `1894`. Он не заменяет официальное телефонное приложение с другим package name/подписью.
-- APK для ГУ подписан AOSP platform test-ключом из исходного комплекта. Это не закрытый ключ Haval. Работа привилегий и установки зависит от подписи/настроек прошивки ГУ; сам факт успешной сборки не гарантирует совместимость с каждой версией Dargo.
-- Изменённая сборка может не обновить установленную версию, если у неё другая подпись. Не удаляйте старую версию, пока не решили, как сохранить её данные и настройки.
 
-## Перед публикацией на GitHub
-
-Папка содержит бинарные APK, драйвер и Platform Tools. Перед публичной публикацией проверьте права на распространение каждого файла. В частности, Bugjaeger помечен как пользовательский модифицированный APK; предпочтительно не публиковать его без разрешения правообладателя. `.gitignore` не исключает дистрибутивные APK/ZIP из Git, чтобы комплект оставался целостным.
