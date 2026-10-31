@@ -1,0 +1,22 @@
+# Windows and editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary build/signing artifacts (release APKs in numbered folders stay tracked)
+*.idsig
+*.log
+*.tmp
+*.bak
+*.unsigned.apk
+*.aligned.apk
+
+# Local credentials must never be committed
+*.jks
+*.keystore
+*.pk8
+*.pem
+adbkey
+adbkey.pub
