@@ -1,6 +1,8 @@
-# DargoSplit 3.6
+# DSp Free for Haval Dargo — DargoSplit 3.6
 
-Комплект для установки DSp 3.6 на головное устройство Haval Dargo.
+`DargoSplit` is an Android head-unit APK and phone installer bundle for Haval Dargo. Install DSp Free on the car multimedia system using ADB from a laptop, USB OTG from an Android phone, or Bugjaeger. The guide covers USB Peripheral mode, Windows ADB drivers, and installation commands.
+
+`DargoSplit` — комплект APK DSp Free для головного устройства Haval Dargo: приложение для Android-ГУ, установщик для телефона и инструкции по установке через ADB, USB OTG и Bugjaeger.
 
 ## Состав
 
